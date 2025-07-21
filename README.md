@@ -1,11 +1,11 @@
-# 3_Operators_in_c++
-C++ Experiment 3: Understanding and Using Decision-Making Statements
-Aim
+
+# C++ Experiment 3: Understanding and Using Decision-Making Statements
+## Aim
 To learn how decision-making works in C++ using if, else if, and else.
 
 To check conditions using relational and logical operators.
 
-Objectives
+## Objectives
 Use if, else if, and else to write programs for:
 
 Checking if a number is positive, negative, or zero.
@@ -18,7 +18,7 @@ Understand the use of relational operators like >, <, >=, <=.
 
 Use logical operators like &&, ||, ==.
 
-Program Description
+## Program Description
 Syntax and Flow
 First, we declare variables to store user inputs like marks, x, y, etc.
 
@@ -28,26 +28,30 @@ The code block that should run when the condition is true is written inside curl
 
 If one condition is false, it checks the next using else if. If none match, the else part runs.
 
-Using If-Else
+### Using If-Else
 C++ checks whether a condition is true (1) or false (0).
 
 If it is true, the if block runs.
 
 If false, the next option (else if or else) runs.
 
-Concepts Used
+### Concepts Used
 If-Else statements
 
 Relational Operators: >, <, >=, <=
 
 Logical Operators: && (AND), || (OR), == (equal to)
 
-Sample Output
-Finding whether the number is positive or negative
+#### Sample Output
+
+##### whether the number is positive or negative
+``` plaintext
 Value of a: 17
-Value of b: -8
+
 A is a +ve number.
 B is a -ve number.
+```
+```plaintext
 Grade calculator
 Marks of subject 1 : 24
 Marks of subject 2 : 76
@@ -55,6 +59,8 @@ Marks of subject 3 : 65
 Marks of subject 4 : 89
 Marks of subject 5 : 94
 Grade A+
+```
+```plaintext
 Quadrant Finder
 Value for x: 7
 Value for y: -4
@@ -62,3 +68,4 @@ Value for y: -4
 Value for x: 0
 Value for y: 0
 Origin
+```
