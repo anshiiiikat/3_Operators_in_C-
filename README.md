@@ -44,8 +44,9 @@ Logical Operators: && (AND), || (OR), == (equal to)
 
 #### Sample Output
 
-##### whether the number is positive or negative
-``` plaintext
+```plaintext
+ whether the number is positive or negative
+
 Value of a: 17
 
 A is a +ve number.
